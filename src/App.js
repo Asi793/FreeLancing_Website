@@ -3,13 +3,21 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1></h1>
-      <div>
-        <p></p>
-        <p></p>
+    <>
+      <div className="navbar">
+        <a href="">Free Lancing</a>
+        <nav>
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">login</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
+
+      <Login />
+    </>
   );
 }
 
